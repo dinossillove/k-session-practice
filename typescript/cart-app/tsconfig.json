@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6",          // Compile to modern JavaScript (ES6)
+    "module": "commonjs",     // Use CommonJS module system (or "esnext" if using modules)
+    "outDir": "./dist",       // Output compiled JS here to avoid overwriting source files
+    "rootDir": "./src",       // Your source files (move JS files to a src/ folder if needed)
+    "allowJs": true,          // Allow JS files to be compiled (key for incremental migration)
+    "checkJs": true,          // Type-check JS files without converting them yet
+    "strict": false,          // Start lenient; enable later for stricter checks
+    "noImplicitAny": false    // Allow implicit 'any' types initially
+  },
+  "include": ["src/**/*"],    // Files to compile
+  "exclude": ["node_modules"] // Ignore dependencies
+}

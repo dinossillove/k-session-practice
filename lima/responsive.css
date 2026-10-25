@@ -1,0 +1,30 @@
+h1{
+    font-size:40px;
+    text-align: center;
+    color: blueviolet;
+}
+
+.kotak{
+    background-color: coral;
+    height: 200px;
+    width: 900px;
+    margin-right:auto;
+    margin-left: auto;
+
+}
+
+
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 24px;
+        color: black;
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+    .kotak{
+        width: 70%;
+    }
+}
+

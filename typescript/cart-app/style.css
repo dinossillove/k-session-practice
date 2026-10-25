@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-wrapper {
+  margin-top: 50px;
+  border: 1px solid black;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  padding: 20px 28px;
+  gap: 16px;
+}
+
+.form-wrapper h1 {
+  font-size: 28px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item-input {
+  padding: 5px 6px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.submit-button {
+  margin-top: 16px;
+  width: 100%;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.cart-list-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 20px;
+  width: 350px;
+}
+
+#cart-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style: none;
+}
+
+.item-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-item {
+  background-color: crimson;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.toggle-theme{
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+

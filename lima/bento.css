@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+.bento-wrapper{
+    height:100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: blue ;
+    grid-template-areas:
+    "header header header"
+    "sidebar main-content main-content"
+    "sidebar main-content main-content"
+    "footer footer footer"
+    ;
+       
+}
+
+
+.header{
+    grid-area: header;
+    background-color: red;
+
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: green;
+}
+
+.main-content{
+    grid-area: main-content;
+    background-color: yellow;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: purple;
+}   
